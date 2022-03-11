@@ -1,32 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Assignment 2</title>
+    <style>
+        table, th, td {
+            border: 3px solid black;
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
 </head>
 <body>
-    <h1>1st Table</h1>
-    <table border="1">
-       <tr>
-           <th style="width: 180px;height: 30px;text-align: left;">Left</th>
-           <th style="width: 180px;height: 30px;text-align: center;">Center</th>
-           <th style="width: 180px;height: 30px;text-align: right;">Right</th>
-       </tr> 
-       <tr>
-            <th style="text-align: left;">Left</th>
-            <th style="text-align: center;">Center</th>
-            <th style="text-align: right;">Right</th>
+    <table style="height: 50px ; width: 500px;">
+        <tr>
+            <td colspan="3">left</td>
+            <td colspan="3" style="text-align: center;">center</td>
+            <td colspan="3" style="text-align: right;">right</td>
         </tr>
-         <tr>
-            <th style="text-align: left;">Left</th>
-            <th style="text-align: center;">Center</th>
-            <th style="text-align: right;">Right</th>
-        </tr> 
-    </table><br />
-    <h1>2th Table</h1>
-    <table border="1" style="height: 200px; width:500px;">
+        <tr>
+            <td colspan="3">left</td>
+            <td colspan="3" style="text-align: center;">center</td>
+            <td colspan="3" style="text-align: right;">right</td>
+        </tr>
+        <tr>
+            <td colspan="3">left</td>
+            <td colspan="3" style="text-align: center;">center</td>
+            <td colspan="3" style="text-align: right;">right</td>
+        </tr>
+    </table><br/>
+    <table style="height: 200px; width:500px;">
         <tr style="height: 5px; width: 500px;">
             <th colspan="6">Heading</th>
         </tr>
@@ -44,15 +47,10 @@
         <tr>
             <td></td>
             <td colspan="3" rowspan="2"></td>
-            <!-- <td></td> -->
-            <!-- <td></td> -->
             <td></td>
         </tr>
         <tr>
             <td></td>
-            <!-- <td></td>
-            <td></td>
-            <td></td> -->
             <td></td>
         </tr>
         <tr>
@@ -62,11 +60,10 @@
             <td></td>
             <td></td>
         </tr>
-        <tr style="height: 40px; width: 500px;">
+        <tr style="height: 30px; width: 500px;">
             <th colspan="6"></th>
         </tr>
     </table><br/>
-    <h1>3rd Table</h1>
     <table border="1" style="height: 200px; width:500px;">
         <tr>
             <td></td>
@@ -93,17 +90,16 @@
             <td></td>
         </tr>
     </table><br />
-    <h1>4th Table</h1>
-    <table border="1">
-        <tr style="background-color: green;">
+    <table style="width: 500px;">
+        <tr style="background-color: rgb(94, 119, 70);">
             <td colspan="3" style="height: 40px; width: 40px;"></td> 
         </tr>
         <tr  style="height: 100px; width: 50px;">
             <td style="width: 100px;"></td>
-            <td style="width: 200px;height: 200px;"><img src="./Capture.PNG" width="180px" height="180px" /></td>
+            <td style="width: 200px;height: 200px;"><img src="./Capture.PNG" width="250px" height="180px" /></td>
             <td style="width: 100px;"></td>
         </tr>
-        <tr style="background-color: blue;">
+        <tr style="background-color: rgb(43, 61, 99);">
             <td colspan="3" style="height: 40px; width: 40px;"></td>
         </tr>
     </table>
